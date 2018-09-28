@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/textview_margin"
+            android:text="@string/version"
+            android:textColor="@color/version" />
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_cover_height"
+            android:padding="@dimen/imageview_padding"
+            android:src="@drawable/generic_cover" />
+
+        <TextView
+            android:id="@+id/welcome"
+            style="@style/Legendary"
+            android:layout_height="@dimen/app_about_message"
+            android:background="@color/background"
+            android:text="@string/about_message"
+            android:textColor="@color/app_name"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/library"
+            style="@style/Legendary"
+            android:layout_margin="@dimen/textview_margin"
+            android:background="@color/igbedu_library"
+            android:text="@string/library"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/playing"
+            style="@style/Legendary"
+            android:layout_margin="@dimen/textview_margin"
+            android:background="@color/igbedu_now_playing"
+            android:text="@string/now_playing"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

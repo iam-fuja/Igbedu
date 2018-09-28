@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Igbedu</string>
+
+    <string name="welcome">About</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="library">Igbedu Library</string>
+    <string name="about_message">Igbedu...................................................................
+    .....................................................................................
+    ........................................
+    ............................................................
+    ..............................................
+    copyright 2018</string>
+    <string name="version">Version: 1.0.0</string>
+    <string name="default_artist">Fuja</string>
+    <string name="default_trackname">Here I\'m</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imageview_padding">16dp</dimen>
+    <dimen name="textview_padding">8dp</dimen>
+    <dimen name="textview_margin">4dp</dimen>
+    <dimen name="app_name_testsize">50sp</dimen>
+    <dimen name="app_cover_height">250dp</dimen>
+    <dimen name="app_about_message">100dp</dimen>
+
+
+
+</resources>

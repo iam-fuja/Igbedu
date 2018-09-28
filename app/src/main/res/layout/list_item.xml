@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/imageview_padding">
+
+    <ImageView
+        android:id="@+id/mak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:src="@drawable/mak" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/imageview_padding">
+
+        <TextView
+            android:id="@+id/track_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/track_textview"
+            android:textStyle="bold"
+            tools:text="@string/default_trackname" />
+
+        <TextView
+            android:id="@+id/artist_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"
+            tools:text="@string/default_artist" />
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/textview_margin"
+            tools:src="@drawable/play" />
+
+    </LinearLayout>
+
+</LinearLayout>
